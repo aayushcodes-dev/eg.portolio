@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: lightblue;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#ed{
+    margin-left: 20vmax;
+}
+
+h2{
+    color: rgb(145, 251, 145);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3:hover{
+    color: rgb(145, 251, 145);
+    text-decoration: underline;
+    transition-duration: 1s;
+    text-decoration-color: aquamarine;
+    background-color: rgb(35, 34, 34);
+}
+main{
+    margin-top: 1%;
+    display: flex;
+}
+#left{
+    height: calc(100% - 80px);
+    width: 50%;
+    
+    
+}
+#right{
+    height: calc(100% - 80px);
+    width: 50%;
+   
+    
+}
+
+#right img{
+    height: 50%;
+    width: 35%;
+    object-fit: cover;
+    border: 7px solid green;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    
+    
+}
+
+
+#inner{
+    margin-top: 20vh;
+    margin-left: 4vw;
+}
+span{
+    color: green;
+    font-style: italic;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 7px;
+    border: 2px solid rgb(109, 247, 114);
+}
+p{
+    background-color: lightblue;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid rgb(109, 247, 114);
+    line-height: 30px;
+    
+}
+button{
+    width: 15vw;
+    height: 6.5vh;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 7px;
+    
+}
+button:hover{
+    width: 15vw;
+    height: 6.5vh;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    nav{
+        width: 100%;
+    }
+    
+}
